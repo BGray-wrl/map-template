@@ -14,6 +14,6 @@ That all being said, the core concept remains true. We see in this visualization
 Instead of writing a large argumentative piece for this project, I decided to work on the logic with a simple and powerful visualization. Any good argument needs both logic and rhetoric; this project aims to ensure that the logic -one critical part of an argument- is made plain, accessible, and undeniable.
 
 ## Data & Structure:
-Data is sourced from the [Energy Institute](https://www.energyinst.org/statistical-review/resources-and-data-downloads)'s 2024 World Energy Report. The original data is available as a CSV file called "Consolidated Dataset - Narrow Format." The raw data file, processed data files, and my shiny code are also on my [github](https://github.com/BGray-wrl/map-template). 
+Data is sourced from the [Energy Institute](https://www.energyinst.org/statistical-review/resources-and-data-downloads)'s 2024 World Energy Report. The original data is available as a CSV file called "Consolidated Dataset - Narrow Format." The raw data file, R code, and additional materials are on my [github](https://github.com/BGray-wrl/map-template). 
 
 The shell structure of the app was forked from [atmajitg/bloodbanks](https://github.com/atmajitg/bloodbanks), found through the [Shiny Postit Gallery](https://shiny.posit.co/r/gallery/). All of the project-specific code was written by me.

@@ -32,11 +32,13 @@ shinyServer(function(input, output) {
   
   materials_data=filter(materials_data, Latitude != "NA") # removing NA values
   
+  # creating the content label
   materials_data <- mutate(materials_data, cntnt=paste0('<strong>Country: </strong>',Country.x,
                                           '<br><strong>Variable:</strong> ', Var,
                                           '<br><strong>Amount:</strong> ', Value
                                           ))
   
+  # making the datatable reactive and able to change given an input
   materialsData <- reactive({
     if (is.null(input$categoryFilter)) {
       return(materials_data)
@@ -45,7 +47,7 @@ shinyServer(function(input, output) {
   })
   
   
-  
+  # creating a color palatte 
   mypal <- colorFactor(pal = c( "#0047ab", "#41424C","#d31940",'#665647' ), domain = c("cobalt_kt", "graphite_kt", "lithium_kt","rareearths_kt"))
   
   # create the leaflet map  
