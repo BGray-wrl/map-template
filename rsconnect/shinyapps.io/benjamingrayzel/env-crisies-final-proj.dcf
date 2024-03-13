@@ -1,0 +1,12 @@
+name: env-crisies-final-proj
+title: env-crisies-final-proj
+username: benjamingrayzel
+account: benjamingrayzel
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11476561
+bundleId: 8366381
+url: https://benjamingrayzel.shinyapps.io/env-crisies-final-proj/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

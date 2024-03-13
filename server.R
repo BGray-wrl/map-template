@@ -1,17 +1,14 @@
 library(shiny)
-
 library(dplyr)
-
 library(leaflet)
+library(stringr)
 
-library(DT)
 
 shinyServer(function(input, output) {
 
   # Wrangling & constructing my dataset
   world_energy<-read.csv("world-energy.csv")
   materials_data <- world_energy%>%
-    # filter(str_detect(Var, "cobalt"))%>%
     filter(str_detect(Var, "cobalt")|str_detect(Var, "lith")|str_detect(Var, "graph")|str_detect(Var, "rare"))%>%
     filter(Year>=2022)%>%
     filter(!str_detect(Var,"res"))%>%
