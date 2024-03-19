@@ -12,4 +12,4 @@ I downsized from that goal, mostly because clean data on specialized, market-ori
 ## Data & Structure:
 Data is sourced from the [Energy Institute](https://www.energyinst.org/statistical-review/resources-and-data-downloads)'s 2024 World Energy Report. The original data is available as a CSV file called "Consolidated Dataset - Narrow Format." The raw data file, R code, and additional materials are on my [github](https://github.com/BGray-wrl/map-template). 
 
-The shell structure of the app was forked from [atmajitg/bloodbanks](https://github.com/atmajitg/bloodbanks), found through the [Shiny Postit Gallery](https://shiny.posit.co/r/gallery/). All of the project-specific code was written by me.
+The shell structure of the app was forked from [atmajitg/bloodbanks](https://github.com/atmajitg/bloodbanks), found through the [Shiny Postit Gallery](https://shiny.posit.co/r/gallery/).
